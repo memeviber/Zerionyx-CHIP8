@@ -1,5 +1,3 @@
-# https://github.com/memeviber/Zerionyx-CHIP8
-
 load "std.filesys"
 load "std.string"
 load "std.time"
