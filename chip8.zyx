@@ -139,6 +139,7 @@ namespace chip8
         println("Warning: Avoid holding keys to prevent buffer lag")
         println("Press ESC to exit")
         time.sleep(3.5)
+        clear()
         return none
     done
 
