@@ -105,11 +105,11 @@
     return
 
 : refill_bit_buffer
-        if v8 != 0xB0 then
-            jump load_next_byte
-        v4 := 0x00
-        v5 := 0x08
-        return
+    if v8 != 0xB0 then
+        jump load_next_byte
+    v4 := 0x00
+    v5 := 0x08
+    return
 
 : load_next_byte
     i := bitstream_ptr
